@@ -1,5 +1,5 @@
 import { Sequelize } from "sequelize";
-const DB_NAME = "coffiew"
+const DB_NAME = "projektpm"
 const DB_USERNAME = "root"
 const DB_PASSWORD = "akbar"
 const DB_HOST = "34.136.132.0"
