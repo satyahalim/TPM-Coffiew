@@ -5,6 +5,7 @@ const {DataTypes} = Sequelize
 const Review = db.define(
     "review",{
         name : DataTypes.STRING,
+        location : DataTypes.STRING,
         price : DataTypes.FLOAT,
         review : DataTypes.TEXT,
         image : DataTypes.TEXT,
